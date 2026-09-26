@@ -1,0 +1,18 @@
+{
+  "name": "discord-bank-record-bot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Discord DM-based bank record and approval bot (test edition)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "node src/seed.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.6.1"
+  }
+}
